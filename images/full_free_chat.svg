@@ -1,0 +1,15 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip42_130">
+			<rect id="Icons/comment" width="50.000000" height="50.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Icons/comment" width="50.000000" height="50.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Icons/comment" width="50.000000" height="50.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip42_130)">
+		<path id="Vector" d="M41.9686 3.36914L7.98254 3.36914C4.42915 3.36914 1.53809 6.26025 1.53809 9.8136L1.53809 30.6124C1.53809 34.1589 4.41656 37.0448 7.95965 37.0569L7.95965 46.4956L21.5229 37.0577L41.9686 37.0577C45.522 37.0577 48.4131 34.1666 48.4131 30.6124L48.4131 9.8136C48.4131 6.26025 45.522 3.36914 41.9686 3.36914ZM35.8669 27.5399L14.0842 27.5399L14.0842 24.7933L35.8669 24.7933L35.8669 27.5399ZM35.8669 21.6805L14.0842 21.6805L14.0842 18.934L35.8669 18.934L35.8669 21.6805ZM35.8669 15.8212L14.0842 15.8212L14.0842 13.0746L35.8669 13.0746L35.8669 15.8212Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Appolly</title>
+
+    <!-- ИКОНКА САЙТА -->
+    <link rel="icon" href="images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header__container">
+        <div class="header__contacts">
+            <div class="header__contacts-info">
+                <a href="mail:Info@youremail.com" class="header__contacts-email">Info@youremail.com</a>
+                <a href="tel:(480) 555-0103" class="header__contacts-phone">(480) 555-0103</a>
+            </div>
+
+            <nav class="header__contacts-menu">
+                <ul class="header__contacts-items">
+                    <li class="header__contacts-item">
+                        <a href="#" class="header__contacts-item-link">
+                            <img src="images/facebook.svg" alt="" class="header__contacts-item-img">
+                        </a>
+                    </li>
+                    <li class="header__contacts-item">
+                        <a href="#" class="header__contacts-item-link">
+                            <img src="images/instagram.svg" alt="" class="header__contacts-item-img">
+                        </a>
+                    </li>
+                    <li class="header__contacts-item">
+                        <a href="#" class="header__contacts-item-link">
+                            <img src="images/twitter.svg" alt="" class="header__contacts-item-img">
+                        </a>
+                    </li>
+                    <li class="header__contacts-item">
+                        <a href="#" class="header__contacts-item-link">
+                            <img src="images/youtube.svg" alt="" class="header__contacts-item-img">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__navigation">
+            <nav class="header__navigation-menu">
+                <ul class="header__navigation-items">
+                    <li class="header__navigation-item--burger-menu">
+                        <button class="header__navigation-item-button"></button>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-item-link header__navigation-item-link--active">Home</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-item-link">About</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-item-link">Features</a>
+                    </li>
+                    <li class="header__navigation-item--logo">
+                        <a href="#" class="header__navigation-link">
+                            <img src="images/logo_1.png" alt="" class="header__navigation-img">
+                        </a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-item-link">Screenshot</a>
+                    </li>
+                    <li class="header__navigation-item">
+                        <a href="#" class="header__navigation-item-link">Blog</a>
+                    </li>
+                    <li class="header__navigation-item--btn">
+                        <a href="#" class="header__navigation-item-btn">Download</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__navigation-burger-list">
+            <nav class="header__navigation-burger-menu">
+                <ul class="header__navigation-burger-items">
+                    <li class="header__navigation-burger-item">
+                        Home
+                    </li>
+                    <li class="header__navigation-burger-item">
+                        About
+                    </li>
+                    <li class="header__navigation-burger-item">
+                        Features
+                    </li>
+                    <li class="header__navigation-burger-item">
+                        Screenshot
+                    </li>
+                    <li class="header__navigation-burger-item">
+                        Blog
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="great-app">
+        <div class="container great-app__container">
+            <div class="great-app__content--decor">
+                <div class="great-app__content">
+                    <h3 class="great-app__content-title">
+                        A Great App Makes Your Life Better
+                    </h3>
+
+                    <p class="great-app__content-descr">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                        consequat
+                        duis enim velit mollit.
+                    </p>
+
+                    <div class="great-app__content-download-block">
+                        <p class="great-app__content-download-text">Download App Now</p>
+                        <a href="#" class="great-app__content-download-playmaker">
+                            <img class="great-app__content-download-playmaker-img" src="images/playmaker.png" alt="">
+                        </a>
+
+                        <a href="#" class="great-app__content-download-appstore">
+                            <img class="great-app__content-download-appstore-img" src="images/appstore.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/great_app.png" alt="" class="great-app__img">
+        </div>
+    </section>
+
+    <section class="about-app">
+        <div class="container about-app__container">
+            <h3 class="about-app__title">
+                About Our App
+            </h3>
+
+            <p class="about-app__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.
+            </p>
+
+            <div class="about-app__block-content">
+                <picture>
+                    <source class="about-app__block-img" media="(min-width: 1440px)" srcset="images/about_app.png">
+                    <source class="about-app__block-img" media="(min-width: 768px)"
+                            srcset="images/about_app_tablet.png">
+                    <source class="about-app__block-img" media="(min-width: 375px)"
+                            srcset="images/about_app_desktop.png">
+                    <img class="about-app__block-img" src="images/about_app.png" alt="phone">
+                </picture>
+
+
+                <nav class="about-app__block-menu">
+                    <ul class="about-app__block-items">
+                        <li class="about-app__block-item">
+                            <h3 class="about-app__item-title">Creative design</h3>
+                            <p class="about-app__item-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus,
+                                ullamcorper velit.
+                            </p>
+                        </li>
+                        <li class="about-app__block-item">
+                            <h3 class="about-app__item-title">easy to use</h3>
+                            <p class="about-app__item-text">
+                                easy to useLorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.</p>
+                        </li>
+                        <li class="about-app__block-item">
+                            <h3 class="about-app__item-title">Best user experince</h3>
+                            <p class="about-app__item-text">
+                                easy to useLorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.</p>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-features">
+        <div class="container app-features__container">
+            <h3 class="app-features__title">
+                App features
+            </h3>
+
+            <p class="app-features__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
+                tempor, ac nunc libero urna, feugiat.
+            </p>
+
+            <div class="app-features__wrapper">
+                <div class="app-features__wrapper-item left-top">
+                    <img class="app-features__wrapper-img" src="images/unlimiter_features.svg" alt="">
+                    <h3 class="app-features__wrapper-title">
+                        unlimiter features
+                    </h3>
+                    <p class="app-features__wrapper-descr app-features__wrapper-descr-left">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="app-features__wrapper-item left-bottom">
+                    <img class="app-features__wrapper-img" src="images/awsome_ui_design.svg" alt="">
+                    <h3 class="app-features__wrapper-title">
+                        awsome ui design
+                    </h3>
+                    <p class="app-features__wrapper-descr app-features__wrapper-descr-left">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="app-features__wrapper-item middle-top">
+                    <img class="app-features__wrapper-img" src="images/full_free_chat.svg" alt="">
+                    <h3 class="app-features__wrapper-title">
+                        Full free chat
+                    </h3>
+                    <p class="app-features__wrapper-descr app-features__wrapper-descr-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="app-features__wrapper-item middle-center">
+                    <img class="app-features__wrapper-img-phone" src="images/App.png" alt="">
+                </div>
+                <div class="app-features__wrapper-item middle-bottom">
+                    <img class="app-features__wrapper-img" src="images/support.svg" alt="">
+                    <h3 class="app-features__wrapper-title">
+                        24/7 support by real pepole
+                    </h3>
+                    <p class="app-features__wrapper-descr app-features__wrapper-descr-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="app-features__wrapper-item right-top">
+                    <img class="app-features__wrapper-img" src="images/phone_grid.svg" alt="">
+                    <h3 class="app-features__wrapper-title">
+                        iso & androind version
+                    </h3>
+                    <p class="app-features__wrapper-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+                <div class="app-features__wrapper-item right-bottom">
+                    <img class="app-features__wrapper-img" src="images/retina_ready_greaphics.svg" alt="">
+                    <h3 class="app-features__wrapper-title">
+                        retina ready greaphics
+                    </h3>
+                    <p class="app-features__wrapper-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="introduction-application">
+        <div class="container introduction-application__container">
+            <h3 class="introduction-application__title">
+                Checkout Our App Interface Look
+            </h3>
+
+            <p class="introduction-application__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
+                tempor, ac nunc libero urna, feugiat.
+            </p>
+
+
+            <div class="introduction-application__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide introduction-application__item">
+                        <img class="introduction-application__item-img" src="images/introduction_application_item_1.png"
+                             alt="">
+                    </div>
+                    <div class="swiper-slide introduction-application__item">
+                        <img class="introduction-application__item-img" src="images/introduction_application_item_3.png"
+                             alt="">
+                    </div>
+                    <div class="swiper-slide introduction-application__item">
+                        <img class="introduction-application__item-img" src="images/introduction_application_item_2.png"
+                             alt="">
+                    </div>
+                    <div class="swiper-slide introduction-application__item">
+                        <img class="introduction-application__item-img" src="images/introduction_application_item_4.png"
+                             alt="">
+                    </div>
+                    <div class="swiper-slide introduction-application__item">
+                        <img class="introduction-application__item-img" src="images/introduction_application_item_5.png"
+                             alt="">
+                    </div>
+                </div>
+                <div class="introduction-application__swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-app">
+        <div class="container download-app__container">
+            <div class="download-app__content">
+                <h2 class="download-app__title">Download App Now</h2>
+                <p class="download-app__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                    vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper
+                    risus tempor, ac nunc libero urna, feugiat.
+                </p>
+
+                <div class="download-app__story-list">
+                    <a href="#" class="download-app__story-link">
+                        <img class="download-app__story-img" src="images/playmaker.png" alt="">
+                    </a>
+                    <a href="#" class="download-app__story-link">
+                        <img class="download-app__story-img" src="images/appstore.png" alt="">
+                    </a>
+                </div>
+
+                <div class="download-app__metrics metrics">
+                    <div class="metrics__item">
+                        <img class="metrics__icon" src="images/download.svg" alt="">
+                        <p class="metrics__count">59865</p>
+                        <p class="metrics__name">Download</p>
+                    </div>
+                    <div class="metrics__item">
+                        <img class="metrics__icon" src="images/like.svg" alt="">
+                        <p class="metrics__count">29852</p>
+                        <p class="metrics__name">LIke</p>
+                    </div>
+                    <div class="metrics__item">
+                        <img class="metrics__icon" src="images/rating.svg" alt="">
+                        <p class="metrics__count">1500</p>
+                        <p class="metrics__name">5 star rating</p>
+                    </div>
+                </div>
+            </div>
+
+            <picture>
+                <source class="download-app__img" media="(min-width: 1440px)" srcset="images/download_app.png">
+                <source class="download-app__img" media="(min-width: 768px)"
+                        srcset="images/download_app_tablet.png">
+                <source class="download-app__img" media="(min-width: 375px)"
+                        srcset="images/download_app_desktop.png">
+                <img class="download-app__img" src="images/download_app.png" alt="phone">
+            </picture>
+        </div>
+    </section>
+
+    <section class="use-app">
+        <div class="use-app__video">
+            <img class="use-app__video-img" src="images/bg_use_app_video.png" alt="">
+
+            <button class="use-app__video-btn"></button>
+        </div>
+
+        <div class="container use-app__container">
+            <h2 class="use-app__title">
+                how to use the app perfectly
+            </h2>
+
+            <p class="use-app__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
+                tempor, ac nunc libero urna, feugiat.
+            </p>
+        </div>
+    </section>
+
+    <section class="our-team">
+        <div class="container our-team__container">
+            <h2 class="our-team__title">
+                Our reative team
+            </h2>
+
+            <p class="our-team__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
+                tempor, ac nunc libero urna, feugiat.
+            </p>
+
+            <div class="our-team__items">
+                <div class="our-team__item">
+                    <img class="our-team__item-img" src="images/our_team_carla.png" alt="">
+                    <h2 class="our-team__item-title">
+                        Carla Press
+                        <span>App Developer</span>
+                    </h2>
+                    <p class="our-team__item-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
+                        tellus vitae.
+                    </p>
+                    <nav class="our-team__socials">
+                        <ul class="our-team__socials-list">
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__facebook"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__instagram"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__twitter"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__youtube"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="our-team__item">
+                    <img class="our-team__item-img" src="images/our_team_craig.png" alt="">
+                    <h2 class="our-team__item-title">
+                        Craig Gouse
+                        <span>UI/UX Designer</span>
+                    </h2>
+                    <p class="our-team__item-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
+                        tellus vitae.
+                    </p>
+                    <nav class="our-team__socials">
+                        <ul class="our-team__socials-list">
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__facebook"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__instagram"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__twitter"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__youtube"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="our-team__item">
+                    <img class="our-team__item-img" src="images/our_team_jocelyn.png" alt="">
+                    <h2 class="our-team__item-title">
+                        Jocelyn Septimus
+                        <span>Website developer</span>
+                    </h2>
+                    <p class="our-team__item-descr">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
+                        tellus vitae.
+                    </p>
+                    <nav class="our-team__socials">
+                        <ul class="our-team__socials-list">
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__facebook"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__instagram"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__twitter"></span>
+                                </a>
+                            </li>
+                            <li class="our-team__social">
+                                <a href="#" class="our-team__social-link">
+                                    <span class="our-team__social-img our-team__youtube"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container reviews__container">
+            <h2 class="reviews__title">
+                Our Happy Customers
+            </h2>
+
+            <p class="reviews__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
+                tempor, ac nunc libero urna, feugiat.
+            </p>
+
+            <div class="reviews__swiper-container">
+                <div class="reviews__swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide reviews__item">
+                            <img class="reviews__item-img" src="images/reviews_user.jpeg" alt="">
+                            <h3 class="reviews__item-title">
+                                Ann Lubin
+                                <span>Co-Founder</span>
+                            </h3>
+                            <p class="reviews__item-descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est
+                                tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                                velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                            </p>
+                        </div>
+                        <div class="swiper-slide reviews__item">
+                            <img class="reviews__item-img" src="images/reviews_user.jpeg" alt="">
+                            <h3 class="reviews__item-title">
+                                Ann Lubin
+                                <span>Co-Founder</span>
+                            </h3>
+                            <p class="reviews__item-descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est
+                                tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                                velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                            </p>
+                        </div>
+                        <div class="swiper-slide reviews__item">
+                            <img class="reviews__item-img" src="images/reviews_user.jpeg" alt="">
+                            <h3 class="reviews__item-title">
+                                Ann Lubin
+                                <span>Co-Founder</span>
+                            </h3>
+                            <p class="reviews__item-descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est
+                                tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                                velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                            </p>
+                        </div>
+                        <div class="swiper-slide reviews__item">
+                            <img class="reviews__item-img" src="images/reviews_user.jpeg" alt="">
+                            <h3 class="reviews__item-title">
+                                Ann Lubin
+                                <span>Co-Founder</span>
+                            </h3>
+                            <p class="reviews__item-descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est
+                                tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                                velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                            </p>
+                        </div>
+                        <div class="swiper-slide reviews__item">
+                            <img class="reviews__item-img" src="images/reviews_user.jpeg" alt="">
+                            <h3 class="reviews__item-title">
+                                Ann Lubin
+                                <span>Co-Founder</span>
+                            </h3>
+                            <p class="reviews__item-descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est
+                                tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                                velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                            </p>
+                        </div>
+                        <div class="swiper-slide reviews__item">
+                            <img class="reviews__item-img" src="images/reviews_user.jpeg" alt="">
+                            <h3 class="reviews__item-title">
+                                Ann Lubin
+                                <span>Co-Founder</span>
+                            </h3>
+                            <p class="reviews__item-descr">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                                Est
+                                tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper
+                                velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog">
+        <div class="container blog__container">
+            <h2 class="blog__title">
+                Our recent blog
+            </h2>
+
+            <p class="blog__descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus
+                tempor, ac nunc libero urna, feugiat.
+            </p>
+
+            <div class="blog__items">
+                <div class="blog__item">
+                    <img class="blog__item-img" src="images/blog_1.jpeg" alt="">
+
+                    <div class="blog__item-content">
+                        <h3 class="blog__item-title">
+                            The Snap Pixel: How It Works and How to Install
+                        </h3>
+
+                        <p class="blog__item-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
+                            tellus vitae, nullam lobortis enim.
+                        </p>
+
+                        <a href="#" class="blog__item-link">Read more</a>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <img class="blog__item-img" src="images/blog_2.jpeg" alt="">
+
+                    <div class="blog__item-content">
+                        <h3 class="blog__item-title">
+                            Global Partner Solutions: A Partnership of Innovation
+                        </h3>
+
+                        <p class="blog__item-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
+                            tellus vitae, nullam lobortis enim.
+                        </p>
+
+                        <a href="#" class="blog__item-link">Read more</a>
+                    </div>
+                </div>
+                <div class="blog__item">
+                    <img class="blog__item-img" src="images/blog_3.jpeg" alt="">
+
+                    <div class="blog__item-content">
+                        <h3 class="blog__item-title">
+                            2021: An opportunity for Snapchatters to start fresh
+                        </h3>
+
+                        <p class="blog__item-descr">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
+                            tellus vitae, nullam lobortis enim.
+                        </p>
+
+                        <a href="#" class="blog__item-link">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container contacts__container">
+            <div class="contacts__block contacts--decor">
+                <img class="contacts__data-img contacts__email-img" src="images/email.png" alt="">
+                <a class="contacts__data-link contacts__email-link"
+                   href="mailto:info@youremail.com">info@youremail.com</a>
+            </div>
+
+            <div class="contacts__block">
+                <img class="contacts__data-img contacts__phone-img" src="images/phone.png" alt="">
+                <a class="contacts__data-link contacts__phone-link" href="tel:+880 321 655 9985">+880 321 655 9985</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__content footer--decor">
+            <div class="footer__logo">
+                <h2 class="footer__logo-title">
+                    Logo
+                </h2>
+
+                <p class="footer__logo-descr">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                    vitae, nullam lobortis enim.quick link
+                </p>
+
+                <nav class="footer__logo-socials">
+                    <ul class="our-team__socials-list footer__logo-socials-list">
+                        <li class="our-team__social">
+                            <a href="#" class="our-team__social-link">
+                                <span class="our-team__social-img our-team__facebook footer__social-img"></span>
+                            </a>
+                        </li>
+                        <li class="our-team__social">
+                            <a href="#" class="our-team__social-link">
+                                <span class="our-team__social-img our-team__instagram footer__social-img"></span>
+                            </a>
+                        </li>
+                        <li class="our-team__social">
+                            <a href="#" class="our-team__social-link">
+                                <span class="our-team__social-img our-team__twitter footer__social-img"></span>
+                            </a>
+                        </li>
+                        <li class="our-team__social">
+                            <a href="#" class="our-team__social-link">
+                                <span class="our-team__social-img our-team__youtube footer__social-img"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__quick-link">
+                <h2 class="footer__quick-link-title">
+                    quick link
+                </h2>
+
+                <nav class="quick-link__list">
+                    <ul class="quick-link__items">
+                        <li class="quick-link__item">
+                            <a href="#" class="quick-link__item-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="quick-link__item">
+                            <a href="#" class="quick-link__item-link">
+                                Features
+                            </a>
+                        </li>
+                        <li class="quick-link__item">
+                            <a href="#" class="quick-link__item-link">
+                                Screenshot
+                            </a>
+                        </li>
+                        <li class="quick-link__item">
+                            <a href="#" class="quick-link__item-link">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="news-letter">
+                <h2 class="news-letter__title">
+                    news letter
+                </h2>
+
+                <p class="news-letter__descr">
+                    Subscribe our newsletter to get our latest
+                    update & news
+                </p>
+
+                <form class="news-letter__form">
+                    <input class="news-letter__form-input" type="email" name="email" placeholder="Your email address"
+                           required>
+
+                    <button class="news-letter__form-btn" type="submit"></button>
+                </form>
+            </div>
+        </div>
+
+        <p class="footer__copyright">
+            © Copyright 2021. All Right Reserved.
+        </p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

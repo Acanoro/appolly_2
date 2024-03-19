@@ -1,0 +1,15 @@
+<svg width="35.000000" height="35.000000" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip135_738">
+			<rect id="Icons/fill/system/star-fill" width="35.000000" height="35.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Icons/fill/system/star-fill" width="35.000000" height="35.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<rect id="Icons/fill/system/star-fill" width="35.000000" height="35.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip135_738)">
+		<path id="Vector" d="M17.5 26.6289L7.21442 32.3867L9.51129 20.8247L0.856079 12.8213L12.5621 11.4331L17.5 0.729004L22.438 11.4331L34.144 12.8213L25.4888 20.8247L27.7857 32.3867L17.5 26.6289Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
